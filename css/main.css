@@ -97,6 +97,43 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+#wrapper {
+  width:960px;
+}
+.margin_left_right_auto {
+  margin-left:auto;
+  margin-right: auto;
+}
+.gr_width_large {
+  width: 593px;
+}
+.gr_width_small {
+  width:367px;
+}
+.float-left {
+  float:left;
+}
+.float-right {
+  float:right;
+}
+.clear_float {
+  clear:both;
+}
+.reset_margin_padding {
+  margin: 0px;
+  padding: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 /* ==========================================================================
    Helper classes
