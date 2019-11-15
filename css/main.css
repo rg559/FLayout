@@ -129,6 +129,10 @@ textarea {
 }
 #masthead {
   height: 74px;
+  background-img: url("/Users/reesha/WebstormProjects/FLayout/img/background.jpeg") ;
+  background-size: cover;
+  background-position: center ;
+  margin-bottom: 45px;
 }
 #menu li {
   display: inline;
