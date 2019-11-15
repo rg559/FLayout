@@ -123,8 +123,13 @@ textarea {
   margin: 0px;
   padding: 0px;
 }
+#menu li {
+  display: inline;
+}
 
-
+#logo {
+  width: 200px;
+}
 
 
 
