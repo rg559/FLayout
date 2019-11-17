@@ -141,6 +141,9 @@ textarea {
   clear: both
 }
 
+h1 a:link {
+  color: black;
+}
 #hero_div {
   background: rgba(0,0,0,.6);
   color: #fff;
@@ -150,7 +153,15 @@ textarea {
   left: 0px;
 }
 
+.footer {
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
 
+hr {
+  margin-bottom: 24px;
+  margin-top: 24px;
+}
 #masthead_landing {
   height: 367px;
   background-size: cover;
