@@ -99,6 +99,10 @@ textarea {
    ========================================================================== */
 #wrapper {
   width:960px;
+  font-size: 19px;
+  line-height: 32px;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+
 }
 #menu {
   height: 120px;
@@ -129,11 +133,35 @@ textarea {
 }
 #masthead {
   height: 74px;
-  background-img: url("/Users/reesha/WebstormProjects/FLayout/img/background.jpeg") ;
   background-size: cover;
-  background-position: center ;
+  background-image: url("../img/background.png");
+  background-position: center;
   margin-bottom: 45px;
+  margin-top: 45px;
+  clear: both
 }
+
+#hero_div {
+  background: rgba(0,0,0,.6);
+  color: #fff;
+  height: 100%;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+}
+
+
+#masthead_landing {
+  height: 367px;
+  background-size: cover;
+  background-image: url("../img/background.png");
+  background-position: center;
+  margin-bottom: 45px;
+  margin-top: 45px;
+}
+
+
+
 #menu li {
   display: inline;
 }
@@ -150,8 +178,14 @@ textarea {
   text-align: center;
 }
 
+.callout {
+  width: 320px;
+  height: 196px;
+}
 
-
+.position_absolute {
+  position: absolute;
+}
 
 
 
